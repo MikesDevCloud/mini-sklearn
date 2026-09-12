@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "**mini-sklearn** is an accumulation of NumPy implementations of core ML algorithms (linear/ridge regression, logistic regression, k-means, gradient descent) built from scratch, with tests and docstrings, to understand the math behind scikit-learn's abstractions and get a better understanding of the various algorithms and their respective parameters."
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "polars>=1.44.2",
+    "pytest>=9.1.1",
+    "scikit-learn>=1.9.1",
+]

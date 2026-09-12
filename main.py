@@ -1,3 +1,4 @@
+import mini_sklearn as msl
 def main():
     print("Hello from mini-sklearn!")
 
